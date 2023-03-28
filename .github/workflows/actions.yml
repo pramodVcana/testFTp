@@ -26,3 +26,5 @@ jobs:
         server: ftp.vcanaglobal.ga
         username: vglobal@vcananewweb.vcanaglobal.ga
         password: ftp@vcana
+        dangerous-clean-slate: true 
+        local-dir:  ./build/
