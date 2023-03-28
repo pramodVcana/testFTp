@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vglobal/public_html/vcananeweb.vcanaglobal.ga/test if required
+    - /bin/cp -r * $DEPLOYPATH
